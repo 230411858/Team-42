@@ -29,8 +29,8 @@ public class Team42Maths {
 
         public static int sub(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
+            return num1 - num2 // Takes num1 and subtracts num2 from it.
+            
         }
 
         public static int multiply(int num1, int num2)
