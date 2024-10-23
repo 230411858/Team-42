@@ -32,7 +32,7 @@ public class Team42Maths {
             /*Developer Jayden Beach
              *University ID: 230231016
              */
-            return num1 - num2 // Takes num1 and subtracts num2 from it.
+            return num1 - num2; // Takes num1 and subtracts num2 from it.
             
         }
 
@@ -41,16 +41,11 @@ public class Team42Maths {
             // complete implementation
         	return 0;
         }
-
-        public static int divide(int num1, int num2)
-        {
-            // complete implementation
-        	return 0;
             
         /*Developer: Tayyab Iqbal
         //University ID: 230410644
         Function: This function takes two inputs and divides the first by the second and return it*/
-        public int divide(int num1, int num2)
+        public static int divide(int num1, int num2)
         {
             int d = num1/num2;
             return d;
