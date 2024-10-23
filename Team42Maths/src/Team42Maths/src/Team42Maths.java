@@ -38,8 +38,13 @@ public class Team42Maths {
 
         public static int multiply(int num1, int num2)
         {
+
+            /*Developer Conan Jahangir
+             *University ID: 230336850
+             */
+
             // complete implementation
-        	return 0;
+        	return num1 * num2;
         }
 
         public static int divide(int num1, int num2)
