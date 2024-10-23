@@ -32,6 +32,12 @@ public class Team42Maths {
             University ID: 230411478
             */
         	if (num1 < num2) {
+                 System.out.println(num1);
+            } 
+            else {
+                 System.out.println(num2);
+            }
+            
         }
 
         public static int add(int num1, int num2)
