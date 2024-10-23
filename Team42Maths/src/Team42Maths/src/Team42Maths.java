@@ -29,6 +29,9 @@ public class Team42Maths {
 
         public static int sub(int num1, int num2)
         {
+            /*Developer Jayden Beach
+             *University ID: 230231016
+             */
             return num1 - num2 // Takes num1 and subtracts num2 from it.
             
         }
