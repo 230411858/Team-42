@@ -66,7 +66,12 @@ public class Team42Maths {
 
         public static int mod(int num1, int num2)
         {
-            // complete implementation
+        /*Developer: Owen Liddle
+         * University ID: 230230983
+         * Function: This function takes two integer as input, calculate the mod (”%”) the first number by second number and
+returns the result
+         */
+            return num1 % num2;
         	return 0;
         }
         
