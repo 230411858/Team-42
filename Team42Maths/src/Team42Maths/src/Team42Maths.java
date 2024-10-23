@@ -83,11 +83,21 @@ public class Team42Maths {
 >>>>>>> 0ff68a27aedb7d2b4cc80661f15919be9fa664ec
         }
 
-        public static int power(int num1, int num2)
-        {
-            // complete implementation
-        	return 0;
-        }
+      
+            public int power(int num1, int num2)
+            {
+                /********************************
+                Developer: Adam Kola
+                University ID: 220194323
+                This function takes two integer as input, the first number is the base and the second one is the coefficient,
+                and returns a number (first variable) raised to a power (second variable) as result. For example, Power(2, 3) should
+                return 8 as result
+                ********************************/
+                int p = (int)Math.pow(num1,num2);
+                return p;
+            }
+        	
+        
 
         public static int mod(int num1, int num2)
         {
