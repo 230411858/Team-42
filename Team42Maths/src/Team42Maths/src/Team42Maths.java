@@ -11,8 +11,15 @@ public class Team42Maths {
         
         public static int max(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
+            if (num1<num2){
+            System.println(num2);
+            }
+            else{ 
+                System.println(num1);
+            }
+
+
+        	
         }
 
         public static int min(int num1, int num2)
@@ -39,20 +46,10 @@ public class Team42Maths {
         	return 0;
         }
 
-<<<<<<< Updated upstream
         public static int divide(int num1, int num2)
         {
             // complete implementation
         	return 0;
-=======
-        /*Developer: Tayyab Iqbal
-        //University ID: 230410644
-        Function: This function takes two inputs and divides the first by the second and return it*/
-        public int divide(int num1, int num2)
-        {
-            int d = num1/num2;
-            return d;
->>>>>>> Stashed changes
         }
 
         public static int power(int num1, int num2)
@@ -66,21 +63,16 @@ public class Team42Maths {
             // complete implementation
         	return 0;
         }
-        
-        /********************************
-        Developer: Haroun Boutounes
-        University ID: 230370429
-        Function: This function the float input and round the number down
-        ********************************/
 
-        public static float floor(float num) {
-            return (float) Math.floor(num);
+        public static float floor(float num)
+        {
+            // complete implementation
+        	return 0;
         }
 
         public static float ceil(float num)
         {
             // complete implementation
-
         	return 0;
         }
     }
