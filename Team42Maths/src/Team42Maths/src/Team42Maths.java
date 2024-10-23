@@ -27,8 +27,11 @@ public class Team42Maths {
 
         public static int min(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
+            /*
+            Developer: Isa Abdur-Rahman
+            University ID: 230411478
+            */
+        	if (num1 < num2) {
         }
 
         public static int add(int num1, int num2)
