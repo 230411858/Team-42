@@ -9,60 +9,70 @@ public class Team42Maths {
 
     public static class Maths {
         
-        public int max(int num1, int num2)
+        public static int max(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int min(int num1, int num2)
+        public static int min(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int add(int num1, int num2)
+        public static int add(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int subtract(int num1, int num2)
+        public static int sub(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int multiply(int num1, int num2)
+        public static int multiply(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int divide(int num1, int num2)
+        public static int divide(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int power(int num1, int num2)
+        public static int power(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public int mod(int num1, int num2)
+        public static int mod(int num1, int num2)
         {
             // complete implementation
+        	return 0;
         }
 
-        public float floor(float num1, float num2)
+        public static float floor(float num)
         {
             // complete implementation
+        	return 0;
         }
 
-        public float ceil(float num1, float num2)
+        public static float ceil(float num)
         {
             // complete implementation
+        	return 0;
         }
     }
 
     public static void test()
     {
-        if (max(2, 4) == 4)
+        if (Maths.max(2, 4) == 4)
         {
             System.out.println("Max test passed!");
         }
@@ -71,7 +81,7 @@ public class Team42Maths {
             System.out.println("Max test failed!");
         }
 
-        if (min(8, 4) == 4)
+        if (Maths.min(8, 4) == 4)
         {
             System.out.println("Min test passed!");
         }
@@ -80,7 +90,7 @@ public class Team42Maths {
             System.out.println("Min test failed!");
         }
 
-        if (add(2, 2) == 4)
+        if (Maths.add(2, 2) == 4)
         {
             System.out.println("Addition test passed!");
         }
@@ -89,7 +99,7 @@ public class Team42Maths {
             System.out.println("Addition test failed!");
         }
 
-        if (sub(7, 3) == 4)
+        if (Maths.sub(7, 3) == 4)
         {
             System.out.println("Subtraction test passed!");
         }
@@ -98,7 +108,7 @@ public class Team42Maths {
             System.out.println("Subtraction test failed!");
         }
 
-        if (multiply(3, 4) == 12)
+        if (Maths.multiply(3, 4) == 12)
         {
             System.out.println("Multiplication test passed!");
         }
@@ -107,7 +117,7 @@ public class Team42Maths {
             System.out.println("Multiplication test failed!");
         }
 
-        if (divide(8, 4) == 2)
+        if (Maths.divide(8, 4) == 2)
         {
             System.out.println("Division test passed!");
         }
@@ -116,7 +126,7 @@ public class Team42Maths {
             System.out.println("Division test failed!");
         }
 
-        if (power(2, 3) == 8)
+        if (Maths.power(2, 3) == 8)
         {
             System.out.println("Power test passed!");
         }
@@ -125,7 +135,7 @@ public class Team42Maths {
             System.out.println("Power test failed!");
         }
 
-        if (mod(5, 2) == 1)
+        if (Maths.mod(5, 2) == 1)
         {
             System.out.println("Modulo test passed!");
         }
@@ -134,7 +144,7 @@ public class Team42Maths {
             System.out.println("Modulo test failed!");
         }
 
-        if (ceil(4.5) == 5)
+        if (Maths.ceil(4.5f) == 5)
         {
             System.out.println("Ceiling test passed!");
         }
@@ -143,7 +153,7 @@ public class Team42Maths {
             System.out.println("Ceiling test failed!");
         }
 
-        if (floor(4.5) == 4)
+        if (Maths.floor(4.5f) == 4)
         {
             System.out.println("Floor test passed!");
         }
