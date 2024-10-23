@@ -42,12 +42,11 @@ public class Team42Maths {
         	return 0;
         }
 
-<<<<<<< Updated upstream
         public static int divide(int num1, int num2)
         {
             // complete implementation
         	return 0;
-=======
+            
         /*Developer: Tayyab Iqbal
         //University ID: 230410644
         Function: This function takes two inputs and divides the first by the second and return it*/
@@ -55,7 +54,6 @@ public class Team42Maths {
         {
             int d = num1/num2;
             return d;
->>>>>>> Stashed changes
         }
 
         public static int power(int num1, int num2)
