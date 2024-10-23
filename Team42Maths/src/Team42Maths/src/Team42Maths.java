@@ -66,16 +66,21 @@ public class Team42Maths {
             // complete implementation
         	return 0;
         }
+        
+        /********************************
+        Developer: Haroun Boutounes
+        University ID: 230370429
+        Function: This function the float input and round the number down
+        ********************************/
 
-        public static float floor(float num)
-        {
-            // complete implementation
-        	return 0;
+        public static float floor(float num) {
+            return (float) Math.floor(num);
         }
 
         public static float ceil(float num)
         {
             // complete implementation
+
         	return 0;
         }
     }
