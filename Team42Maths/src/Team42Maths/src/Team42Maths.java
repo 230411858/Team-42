@@ -30,6 +30,7 @@ public class Team42Maths {
             /*
             Developer: Isa Abdur-Rahman
             University ID: 230411478
+            Function: Find the minimum number between both inputs
             */
         	if (num1 < num2) {
                  System.out.println(num1);
