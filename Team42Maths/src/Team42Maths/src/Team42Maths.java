@@ -11,6 +11,9 @@ public class Team42Maths {
         
         public static int max(int num1, int num2)
         {
+            /*Developer Emmanuel Tweneboah
+             *University ID: 230405396
+             */
             if (num1<num2){
             System.println(num2);
             }
@@ -36,20 +39,38 @@ public class Team42Maths {
 
         public static int sub(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
+            /*Developer Jayden Beach
+             *University ID: 230231016
+             */
+            return num1 - num2; // Takes num1 and subtracts num2 from it.
+            
         }
 
         public static int multiply(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
-        }
 
+<<<<<<< HEAD
         public static int divide(int num1, int num2)
         {
             // complete implementation
         	return 0;
+=======
+            /*Developer Conan Jahangir
+             *University ID: 230336850
+             */
+
+            // complete implementation
+        	return num1 * num2;
+        }
+            
+        /*Developer: Tayyab Iqbal
+        //University ID: 230410644
+        Function: This function takes two inputs and divides the first by the second and return it*/
+        public static int divide(int num1, int num2)
+        {
+            int d = num1/num2;
+            return d;
+>>>>>>> 0ff68a27aedb7d2b4cc80661f15919be9fa664ec
         }
 
         public static int power(int num1, int num2)
@@ -60,8 +81,13 @@ public class Team42Maths {
 
         public static int mod(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
+        /*Developer: Owen Liddle
+         * University ID: 230230983
+         * Function: This function takes two integer as input, calculate the mod (”%”) the first number by second number and
+         * Returns the result
+         */
+            return num1 % num2;
+        	
         }
 
         public static float floor(float num)
