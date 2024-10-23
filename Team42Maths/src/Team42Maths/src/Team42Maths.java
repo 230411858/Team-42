@@ -69,10 +69,10 @@ public class Team42Maths {
         /*Developer: Owen Liddle
          * University ID: 230230983
          * Function: This function takes two integer as input, calculate the mod (”%”) the first number by second number and
-returns the result
+         * Returns the result
          */
             return num1 % num2;
-        	return 0;
+        	
         }
         
         /********************************
