@@ -43,8 +43,10 @@ public class Team42Maths {
 
         public static int add(int num1, int num2)
         {
-            // complete implementation
-        	return 0;
+             /*Developer Kaysan Saadi
+             *University ID: 230411261
+             */
+            return num1 + num2; // Takes num1 and subtracts num2 from it.
         }
 
         public static int sub(int num1, int num2)
