@@ -1,2 +1,2 @@
-# Team-42
+# Team-42-Maths
 Maths Functions
